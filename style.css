@@ -4,6 +4,148 @@ body {
   font-family: "Roboto", sans-serif;
   margin: 0;
 }
+
+
+
+
+h2 {
+  font-family: Roboto Slab;
+  font-size: 55px;
+  margin-left: 121px;
+  line-height: 101.38%;
+  height: 93px;
+}
+.learn {
+  font-family: Roboto;
+  font-size: 24px;
+  margin: 0 0 248px 138px;
+  width: 662px;
+}
+.container {
+ font-family: Roboto;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ margin-left: 84px;
+ margin-right: 85px;
+ line-height: 150%;
+ margin-bottom: 52px;
+ height: 1200px;
+}
+img {
+  width: 100%;
+}
+.program_block {
+  position: relative;
+  width: 399px;
+  height: 328px;
+  display: flex;
+  flex-direction: column;
+  border: 0px solid rgb(255, 255, 255);
+  border-radius: 30px; 
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+
+}
+.program_block div:nth-child(2) {
+  padding: 0 30px;
+}
+.program_block:last-of-type {
+  box-shadow: none;
+}
+h3 {
+  position: absolute;
+  top: 171px;
+}
+p {
+ 
+  top: 242px;
+  margin: 0;
+}
+
+
+.container p {
+  position: absolute;
+
+}
+@media (min-width: 992px) and (max-width:1279px) {
+  .container {
+    max-width: 762px;
+    margin: auto;
+    display: flex;
+  }
+  .program_block {
+    margin: auto;
+  }
+}
+@media (min-width: 320px) and (max-width:991px) {
+  .container {
+    margin: auto;
+    max-width: 340px;
+    display: flex;
+    height: auto;
+  }
+  .program_block {
+    margin: 24px;
+  }
+}
+
+
+h2 {
+  font-family: Roboto Slab;
+  font-size: 55px;
+  line-height: 101.38%;
+  height: 93px;
+  margin-left: 121px;
+ 
+}
+.learn {
+  width: 662px;
+  height: 374px;
+  margin-left: 138px;
+ 
+  padding-left: 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 150%;
+}
+.program {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 101.38%;
+  position: absolute;
+  width: 905px;
+  height: 93px;
+  margin-left: 121px;
+  margin-top: 3246px;
+}
+.blocks {
+  display: flex;
+  list-style-type: none;
+  font-family: Roboto;
+  flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+/*-----------------------------------*/
+
+
+
+
+
+
+
+
+
+
 #wrapper {
   margin: auto;
   max-width: 1280px;
@@ -92,6 +234,9 @@ body {
   font-size: 55px;
 }
 
+.conditions p{
+  padding-top: 20px;
+}
 .cost {
   font-size: 25px;
   margin-bottom: 0;
@@ -370,7 +515,8 @@ footer {
     .feedback_one,
     .price-list_one,
     .contacts-for-communication {
-      margin-left: 57px;
+      margin-left: 36px;
+      
     }
 
   #feedback {
@@ -382,6 +528,7 @@ footer {
     padding-top: 42px;
     padding-bottom: 28px;
     font-size: 26px;
+    width: 257px;
    
     
   }
@@ -425,6 +572,7 @@ footer {
     padding-top: 62px;
     padding-bottom: 22.33px;
     font-size: 26px;
+    width: 224px;
   }
 
   .cost {
@@ -435,12 +583,21 @@ footer {
     font-size: 37px;
   }
 
+
+
+  .conditions p{
+padding-top: 10px;
+
+  }
   .conditions {
-    max-width: 82.4%;
+    max-width: 40%;
+    padding-top: 20px;
   }
 
   .conditions div {
     font-size: 12px;
+    width: 140px;
+
   }
 
  
