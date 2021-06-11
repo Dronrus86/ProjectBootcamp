@@ -1,3 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+
+
+
 h2 {
   font-family: Roboto Slab;
   font-size: 55px;
@@ -19,7 +29,8 @@ h2 {
  margin-left: 84px;
  margin-right: 85px;
  line-height: 150%;
- height: 1286px;
+ margin-bottom: 52px;
+ height: 1200px;
 }
 img {
   width: 100%;
@@ -35,7 +46,7 @@ img {
   box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
 
 }
-.program_block>div:nth-child(2) {
+.program_block div:nth-child(2) {
   padding: 0 30px;
 }
 .program_block:last-of-type {
@@ -46,9 +57,15 @@ h3 {
   top: 171px;
 }
 p {
-  position: absolute;
+ 
   top: 242px;
   margin: 0;
+}
+
+
+.container p {
+  position: absolute;
+
 }
 @media (min-width: 992px) and (max-width:1279px) {
   .container {
@@ -65,9 +82,590 @@ p {
     margin: auto;
     max-width: 340px;
     display: flex;
-
+    height: auto;
   }
   .program_block {
     margin: 24px;
+  }
+}
+
+
+h2 {
+  font-family: Roboto Slab;
+  font-size: 55px;
+  line-height: 101.38%;
+  height: 93px;
+  margin-left: 121px;
+ 
+}
+.learn {
+  width: 662px;
+  height: 374px;
+  margin-left: 138px;
+ 
+  padding-left: 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 150%;
+}
+.program {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 101.38%;
+  position: absolute;
+  width: 905px;
+  height: 93px;
+  margin-left: 121px;
+  margin-top: 3246px;
+}
+.blocks {
+  display: flex;
+  list-style-type: none;
+  font-family: Roboto;
+  flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+/*-----------------------------------*/
+
+
+
+
+
+
+
+
+
+
+#wrapper {
+  margin: auto;
+  max-width: 1280px;
+}
+
+
+.feedback_one,
+.price-list_one,
+.contacts-for-communication {
+  margin-left: 122px;
+}
+
+#feedback {
+  background-color: #efefef;
+  height: 780px;
+}
+
+.feedback_one h2 {
+  margin: 0;
+  padding-top: 91px;
+  padding-bottom: 63px;
+  font-size: 55px;
+}
+
+.feedback_info {
+  max-width: 791px;
+  max-height: 451px;
+  background-color: white;
+  border-radius: 30px;
+  margin-left: 0.4%;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+}
+
+.feedback_info div:first-child {
+  max-width: 88%;
+  max-height: 45%;
+  padding: 5% 6% 0 6%;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.feedback_info p {
+  margin: 0;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  font-family: "Roboto Slab";
+  font-weight: 700;
+  line-height: 101.38%;
+  max-width: 72.4%;
+}
+
+.avatar div:first-child {
+  width: 33%;
+  margin-bottom: 29px;
+  padding-left: 5%;
+}
+
+.avatar div img {
+  max-width: 100%;
+  height: auto;
+}
+
+.avatar div p {
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+.avatar div:last-child img {
+  width: 10%;
+}
+
+
+#price-list {
+  background-color: #9dc9c8;
+  height: 780px;
+}
+
+.price-list_one h2 {
+  margin: 0;
+  padding-top: 179px;
+  padding-bottom: 54px;
+  font-size: 55px;
+}
+
+.conditions p{
+  padding-top: 20px;
+}
+.cost {
+  font-size: 25px;
+  margin-bottom: 0;
+}
+
+.price {
+  font-size: 80px;
+  margin-top: 0;
+  height: auto;
+}
+
+.conditions {
+  display: flex;
+  justify-content: space-between;
+  max-width: 56%;
+}
+
+
+.conditions div {
+  max-width: 45%;
+  height: auto;
+  font-size: 25px;
+  line-height: 101.38%;
+}
+
+footer {
+  background-color: black;
+  height: 390px;
+}
+
+
+.contacts-for-communication p {
+  color: white;
+  margin-top: 0;
+}
+
+.contacts-for-communication {
+  display: flex;
+  justify-content: space-between;
+  max-width: 81.4%;
+}
+
+.social-network {
+  padding-top: 50px;
+  width: 16.9%;
+}
+
+.logo-mobile {
+  width: 58%;
+}
+
+.logo-mobile img {
+  max-width: 100%;
+  height: auto;
+}
+
+.phone-mail {
+  margin-top: 54px;
+  max-width: 27%;
+}
+
+.number ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.number ul li {
+  font-size: 25px;
+  line-height: 101.38%;
+}
+
+.number ul li:first-child {
+  margin-right: 7%;
+  max-width: 10%;
+}
+
+.number ul img {
+  max-width: 100%;
+  height: auto;
+}
+
+.mail ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.mail ul li {
+  font-size: 25px;
+  line-height: 101.38%;
+}
+
+.mail ul li:first-child {
+  margin-right: 7%;
+  min-width: 10%;
+}
+
+.mail ul img {
+  max-width: 100%;
+  height: auto;
+}
+
+.messengers {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.messengers div {
+  width: 17.6%;
+}
+
+.messengers div img {
+  max-width: 100%;
+  height: auto;
+}
+
+.copyright {
+  color: white;
+  margin-left: 122px;
+  font-size: 18px;
+  line-height: 101.38%;
+  margin-top: 140px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------------------*/
+@media screen and (min-width: 992px) and (max-width: 1279px) {
+  
+    .feedback_one,
+    .price-list_one,
+    .contacts-for-communication {
+      margin-left: 70px;
+    }
+
+    #feedback {
+        
+        height: 451px;
+    }
+
+  price-list {
+    height: 451.75px;
+    
+  }
+
+  .feedback_one h2 {
+    padding-top: 32px;
+    padding-bottom: 40.26px;
+    font-size: 32px;
+  }
+
+  .feedback_info {
+    max-width: 458px;
+    max-height: 261px;
+    box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
+    border-radius: 17.3px;
+  }
+
+  .feedback_info div:first-child {
+    padding: 5% 6% 0 6%;
+    font-size: 12px;
+  }
+
+  .avatar {
+    font-size: 17px;
+    max-width: 72.4%;
+  }
+
+  .avatar div:first-child {
+    width: 24.24%;
+    margin-bottom: 16.8px;
+    padding-left: 5%;
+  }
+
+  .avatar div p {
+    margin-top: 1.91%;
+    margin-bottom: 6.51%;
+  }
+
+ 
+
+  #price-list {
+    background-color: #9dc9c8;
+    height: 451.5px;
+  }
+
+  .price-list_one h2 {
+    padding-top: 103.67px;
+    padding-bottom: 31.27px;
+    font-size: 32px;
+  }
+
+  .cost {
+    font-size: 14px;
+  }
+
+  .price {
+    font-size: 46px;
+  }
+
+  .conditions {
+    max-width: 45.69%;
+  }
+
+  .conditions div {
+    font-size: 14px;
+  }
+
+  footer {
+    background-color: black;
+    height: 225.88px;
+  }
+
+  .social-network {
+    padding-top: 29px;
+  }
+
+  .messengers {
+    margin-top: 17px;
+  }
+
+  .phone-mail {
+    margin-top: 31px;
+    font-size: 14px;
+  }
+
+  .phone-mail ul li {
+    font-size: 14px;
+  }
+
+  .mail ul li {
+    font-size: 14px;
+  }
+  .number {
+    font-size: 14px;
+  }
+
+  .mail ul li:first-child {
+    min-width: 10%;
+  }
+
+  .copyright {
+    font-size: 10px;
+    margin-top: 64px;
+    margin-left: 71px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 991px) {
+  
+    .feedback_one,
+    .price-list_one,
+    .contacts-for-communication {
+      margin-left: 36px;
+      
+    }
+
+  #feedback {
+    height: 423px;
+    
+  }
+
+  .feedback_one h2 {
+    padding-top: 42px;
+    padding-bottom: 28px;
+    font-size: 26px;
+    width: 257px;
+   
+    
+  }
+
+  .feedback_info {
+    max-width: 308px;
+    max-height: 248px;
+    box-shadow: 0.465972px 0.465972px 9.31944px rgba(0, 0, 0, 0.25);
+    border-radius: 13.9px;
+  }
+
+  .feedback_info div:first-child {
+    padding: 5% 6% 0 6%;
+      font-size: 10px;
+  }
+
+  .avatar {
+    font-size: 0.87rem;
+    max-width: 83.77%;
+  }
+
+  .avatar div:first-child {
+    width: 31.01%;
+    margin-bottom: 13px;
+    padding-left: 5%;
+  }
+
+  .avatar div p {
+    margin-top: 1.91%;
+    margin-bottom: 6.51%;
+  }
+
+
+
+  #price-list {
+    height: 363px;
+    
+  }
+
+  .price-list_one h2 {
+    padding-top: 62px;
+    padding-bottom: 22.33px;
+    font-size: 26px;
+    width: 224px;
+  }
+
+  .cost {
+    font-size: 12px;
+  }
+
+  .price {
+    font-size: 37px;
+  }
+
+
+
+  .conditions p{
+padding-top: 10px;
+
+  }
+  .conditions {
+    max-width: 40%;
+    padding-top: 20px;
+  }
+
+  .conditions div {
+    font-size: 12px;
+    width: 140px;
+
+  }
+
+ 
+
+  footer {
+    background-color: black;
+    height: 251px;
+    
+  }
+
+  .social-network {
+    padding-top: 23px;
+    min-width: 24.5%;
+  }
+
+  .contacts-for-communication {
+    flex-direction: column;
+    margin-top: 0;
+
+  }
+  
+  .contacts-for-communication p {
+    margin-top: 0;
+
+  }
+
+  .logo-mobile img {
+    max-width: 70%;
+
+  }
+  .contacts {
+    margin-top: 47px;
+    min-width: 41%;
+  }
+
+  .number ul li {
+    font-size: 10px;
+  }
+
+  .mail ul li {
+    font-size: 10px;
+  }
+
+  .mail ul li:first-child {
+    min-width: 10%;
+  }
+
+  .messengers {
+    margin-top: 14px;
+    min-width: 24.5%;
+  }
+    .messengers div img {
+        max-width: 70%;
+  }
+.phone-mail{
+    margin-top: 10px;
+}
+  .messengers div {
+    min-width: 17%;
+  }
+  .mail ul img {
+    max-width: 70%;
+  }
+  .copyright {
+    font-size: 10px;
+   margin-left: 57px;
+   padding-bottom: 10px;
+   margin-top: 30px;
+   
   }
 }
