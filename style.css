@@ -5,152 +5,97 @@ body {
   margin: 0;
 }
 
-
-
-
+.will_learn {
+  width: 46%;
+  margin: 0 0 248px 121px;
+}
 h2 {
   font-family: Roboto Slab;
   font-size: 55px;
-  margin-left: 121px;
   line-height: 101.38%;
-  height: 93px;
+  margin-left: 121px;
 }
-.learn {
+
+ul {
   font-family: Roboto;
   font-size: 24px;
-  margin: 0 0 248px 138px;
-  width: 662px;
 }
-.container {
- font-family: Roboto;
- display: flex;
- flex-wrap: wrap;
- justify-content: space-between;
- margin-left: 84px;
- margin-right: 85px;
- line-height: 150%;
- margin-bottom: 52px;
- height: 1200px;
-}
-img {
-  width: 100%;
-}
-.program_block {
-  position: relative;
-  width: 399px;
-  height: 328px;
-  display: flex;
-  flex-direction: column;
-  border: 0px solid rgb(255, 255, 255);
-  border-radius: 30px; 
-  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
 
+.content_program {
+  margin: 95px 0 121px 84px;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Roboto;
+  width: 88%;
 }
-.program_block div:nth-child(2) {
+
+.program_block {
+  border: 0px solid rgb(255, 255, 255);
+  border-radius: 37px;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+  margin-bottom: 41px;
+  margin-right: 37px;
+}
+
+.program_block > div:nth-child(2) {
   padding: 0 30px;
 }
-.program_block:last-of-type {
-  box-shadow: none;
-}
-h3 {
-  position: absolute;
-  top: 171px;
-}
-p {
- 
-  top: 242px;
-  margin: 0;
+
+.program_block img {
+  width: 399px;
+  height: 100%;
 }
 
-
-.container p {
-  position: absolute;
-
-}
-@media (min-width: 992px) and (max-width:1279px) {
-  .container {
-    max-width: 762px;
-    margin: auto;
-    display: flex;
+@media (min-width: 992px) and (max-width: 1279px) {
+  h2 {
+    font-size: 32px;
+    margin-left: 70px;
+  }
+  ul {
+    font-size: 14px;
+    padding-left: 0;
+  }
+  .will_learn {
+    width: 46%;
+    margin: 0 0 144px 80px;
+  }
+  .content_program {
+    max-width: 88%;
+    margin: 55px 0 52px 49px;
   }
   .program_block {
-    margin: auto;
+    margin-bottom: 24px;
+    margin-right: 21px;
   }
 }
-@media (min-width: 320px) and (max-width:991px) {
-  .container {
+
+@media (min-width: 320px) and (max-width: 991px) {
+  h2 {
+    font-size: 26px;
+    margin-left: 36px;
+  }
+  ul {
+    font-size: 12px;
+    padding-left: 0;
+  }
+  .will_learn {
+    width: 79%;
+    margin: 0 0 85px 44px;
+  }
+  .content_program {
     margin: auto;
-    max-width: 340px;
-    display: flex;
-    height: auto;
   }
   .program_block {
-    margin: 24px;
+    margin-bottom: 24px;
   }
 }
-
-
-h2 {
-  font-family: Roboto Slab;
-  font-size: 55px;
-  line-height: 101.38%;
-  height: 93px;
-  margin-left: 121px;
- 
-}
-.learn {
-  width: 662px;
-  height: 374px;
-  margin-left: 138px;
- 
-  padding-left: 0;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 150%;
-}
-.program {
-  font-family: Roboto Slab;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 55px;
-  line-height: 101.38%;
-  position: absolute;
-  width: 905px;
-  height: 93px;
-  margin-left: 121px;
-  margin-top: 3246px;
-}
-.blocks {
-  display: flex;
-  list-style-type: none;
-  font-family: Roboto;
-  flex-wrap: wrap;
-}
-
-
-
-
-
-
 
 /*-----------------------------------*/
-
-
-
-
-
-
-
-
-
 
 #wrapper {
   margin: auto;
   max-width: 1280px;
 }
-
 
 .feedback_one,
 .price-list_one,
@@ -221,7 +166,6 @@ h2 {
   width: 10%;
 }
 
-
 #price-list {
   background-color: #9dc9c8;
   height: 780px;
@@ -234,7 +178,7 @@ h2 {
   font-size: 55px;
 }
 
-.conditions p{
+.conditions p {
   padding-top: 20px;
 }
 .cost {
@@ -254,7 +198,6 @@ h2 {
   max-width: 56%;
 }
 
-
 .conditions div {
   max-width: 45%;
   height: auto;
@@ -266,7 +209,6 @@ footer {
   background-color: black;
   height: 390px;
 }
-
 
 .contacts-for-communication p {
   color: white;
@@ -365,36 +307,20 @@ footer {
   margin-top: 140px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*----------------------------------------------*/
 @media screen and (min-width: 992px) and (max-width: 1279px) {
-  
-    .feedback_one,
-    .price-list_one,
-    .contacts-for-communication {
-      margin-left: 70px;
-    }
+  .feedback_one,
+  .price-list_one,
+  .contacts-for-communication {
+    margin-left: 70px;
+  }
 
-    #feedback {
-        
-        height: 451px;
-    }
+  #feedback {
+    height: 451px;
+  }
 
   price-list {
     height: 451.75px;
-    
   }
 
   .feedback_one h2 {
@@ -430,8 +356,6 @@ footer {
     margin-top: 1.91%;
     margin-bottom: 6.51%;
   }
-
- 
 
   #price-list {
     background-color: #9dc9c8;
@@ -500,28 +424,15 @@ footer {
   }
 }
 
-
-
-
-
-
-
-
-
-
-
 @media screen and (max-width: 991px) {
-  
-    .feedback_one,
-    .price-list_one,
-    .contacts-for-communication {
-      margin-left: 36px;
-      
-    }
+  .feedback_one,
+  .price-list_one,
+  .contacts-for-communication {
+    margin-left: 36px;
+  }
 
   #feedback {
     height: 423px;
-    
   }
 
   .feedback_one h2 {
@@ -529,8 +440,6 @@ footer {
     padding-bottom: 28px;
     font-size: 26px;
     width: 257px;
-   
-    
   }
 
   .feedback_info {
@@ -542,7 +451,7 @@ footer {
 
   .feedback_info div:first-child {
     padding: 5% 6% 0 6%;
-      font-size: 10px;
+    font-size: 10px;
   }
 
   .avatar {
@@ -561,11 +470,8 @@ footer {
     margin-bottom: 6.51%;
   }
 
-
-
   #price-list {
     height: 363px;
-    
   }
 
   .price-list_one h2 {
@@ -583,11 +489,8 @@ footer {
     font-size: 37px;
   }
 
-
-
-  .conditions p{
-padding-top: 10px;
-
+  .conditions p {
+    padding-top: 10px;
   }
   .conditions {
     max-width: 40%;
@@ -597,15 +500,11 @@ padding-top: 10px;
   .conditions div {
     font-size: 12px;
     width: 140px;
-
   }
-
- 
 
   footer {
     background-color: black;
     height: 251px;
-    
   }
 
   .social-network {
@@ -616,17 +515,14 @@ padding-top: 10px;
   .contacts-for-communication {
     flex-direction: column;
     margin-top: 0;
-
   }
-  
+
   .contacts-for-communication p {
     margin-top: 0;
-
   }
 
   .logo-mobile img {
     max-width: 70%;
-
   }
   .contacts {
     margin-top: 47px;
@@ -649,12 +545,12 @@ padding-top: 10px;
     margin-top: 14px;
     min-width: 24.5%;
   }
-    .messengers div img {
-        max-width: 70%;
+  .messengers div img {
+    max-width: 70%;
   }
-.phone-mail{
+  .phone-mail {
     margin-top: 10px;
-}
+  }
   .messengers div {
     min-width: 17%;
   }
@@ -663,9 +559,8 @@ padding-top: 10px;
   }
   .copyright {
     font-size: 10px;
-   margin-left: 57px;
-   padding-bottom: 10px;
-   margin-top: 30px;
-   
+    margin-left: 57px;
+    padding-bottom: 10px;
+    margin-top: 30px;
   }
 }
