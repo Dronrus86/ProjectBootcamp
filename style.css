@@ -90,6 +90,24 @@ ul {
   }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*-----------------------------------*/
 
 #wrapper {
@@ -307,6 +325,32 @@ footer {
   margin-top: 140px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*----------------------------------------------*/
 @media screen and (min-width: 992px) and (max-width: 1279px) {
   .feedback_one,
@@ -424,6 +468,23 @@ footer {
   }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 991px) {
   .feedback_one,
   .price-list_one,
@@ -494,7 +555,7 @@ footer {
   }
   .conditions {
     max-width: 40%;
-    padding-top: 20px;
+    
   }
 
   .conditions div {
