@@ -26,7 +26,6 @@ ul {
   display: flex;
   flex-wrap: wrap;
   font-family: Roboto;
-  width: 88%;
 }
 
 .program_block {
@@ -89,8 +88,6 @@ ul {
     margin-bottom: 24px;
   }
 }
-
-
 
 
 
@@ -332,25 +329,6 @@ footer {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*----------------------------------------------*/
 @media screen and (min-width: 992px) and (max-width: 1279px) {
   .feedback_one,
@@ -468,23 +446,6 @@ footer {
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (max-width: 991px) {
   .feedback_one,
   .price-list_one,
@@ -555,7 +516,6 @@ footer {
   }
   .conditions {
     max-width: 40%;
-    
   }
 
   .conditions div {
