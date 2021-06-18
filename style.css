@@ -5,11 +5,238 @@ body {
   margin: 0;
 }
 
+.main_content {
+  width: 100%;
+  margin: auto;
+}
+.logotype {
+  padding-left: 30px;
+}
+
+.header_content {
+  margin: auto;
+  max-width: 1280px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.header img {
+  max-width: 10%;
+  height: auto;
+}
+
+.watchamovie_conten {
+  margin-left: 30px;
+}
+
+.startofthecourse {
+  max-width: 45%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 96px;
+  font-size: 23px;
+  margin-left: 122px;
+}
+
+.startofthecourse div img {
+  max-height: 30%;
+  width: auto;
+  margin-right: 4%;
+}
+
+.startofthecourse div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 30%;
+}
+
+.startofthecourse div:nth-child(2) {
+  width: 23%;
+}
+
+.producer1_photo {
+  margin-top: 29px;
+  max-width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.producer1_photo div {
+  max-width: 60%;
+  font-size: 23px;
+  line-height: 150%;
+  font-weight: 400;
+}
+
+.producer1_photo div:last-child {
+  width: 28.3%;
+}
+
+.producer1_photo div img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-family: "Roboto Slab";
+  font-size: 80px;
+  font-weight: 700;
+  margin: 0;
+  line-height: 100%;
+  margin-left: 122px;
+}
+
+.producer1_photo p {
+  max-width: 75%;
+  margin-left: 122px;
+}
+
+.quote {
+  font-family: "Roboto Slab";
+  font-weight: 400;
+  background-color: #1e4681;
+  color: #ffffff;
+  font-size: 25px;
+  max-width: 40%;
+  height: auto;
+  border-radius: 5px;
+  margin-top: 68px;
+  margin-left: 23%;
+  margin-bottom: 173px;
+}
+
+.quote p {
+  margin: 0;
+}
+
+.quote p:first-child {
+  padding: 5% 3% 2% 5%;
+  text-align: left;
+  line-height: 130%;
+}
+
+.quote p:last-child {
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 400;
+  text-align: right;
+  padding-right: 5%;
+  padding-bottom: 5%;
+}
+
+.aboutcourse_content {
+  margin-left: 122px;
+}
+
+.course_descrip_photo {
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 400;
+  max-width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 150%;
+}
+
+.course_descrip_photo div:last-child {
+  width: 30%;
+}
+
+.course_descrip_photo div img {
+  max-width: 100%;
+  height: auto;
+}
+
+h2 {
+  font-family: "Roboto Slab";
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 101.38%;
+}
+
+.descrip {
+  max-width: 60%;
+}
+
+.descrip p {
+  margin-top: 0;
+}
+
+.photo_lessons_comments {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 80%;
+  margin-top: 70px;
+  margin-bottom: 162px;
+}
+
+.duration_list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 130%;
+  margin-left: 15%;
+}
+
+.duration_list div {
+  max-width: 30%;
+  height: auto;
+}
+
+.photo_comments {
+  width: 30%;
+}
+
+.photo_lessons_comments img {
+  max-width: 100%;
+  height: auto;
+}
+
+.duration {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.classformat_content {
+  margin-left: 122px;
+}
+
+.classformat_form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 90px;
+  margin-bottom: 179px;
+  font-size: 18px;
+  font-weight: 400;
+  max-width: 75%;
+  line-height: 130%;
+}
+
+.format {
+  color: #1e4681;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.classformat_form_descrip div {
+  max-width: 30%;
+  height: auto;
+}
+
+/*____________________________________________________________________________________________________________*/
+
 .will_learn {
   width: 46%;
   margin: 0 0 248px 121px;
 }
-h2 {
+.whatWeLearn_content h2 {
   font-family: Roboto Slab;
   font-size: 55px;
   line-height: 101.38%;
@@ -26,7 +253,6 @@ ul {
   display: flex;
   flex-wrap: wrap;
   font-family: Roboto;
-  width: 88%;
 }
 
 .program_block {
@@ -46,69 +272,7 @@ ul {
   height: 100%;
 }
 
-@media (min-width: 992px) and (max-width: 1279px) {
-  h2 {
-    font-size: 32px;
-    margin-left: 70px;
-  }
-  ul {
-    font-size: 14px;
-    padding-left: 0;
-  }
-  .will_learn {
-    width: 46%;
-    margin: 0 0 144px 80px;
-  }
-  .content_program {
-    max-width: 88%;
-    margin: 55px 0 52px 49px;
-  }
-  .program_block {
-    margin-bottom: 24px;
-    margin-right: 21px;
-  }
-}
-
-@media (min-width: 320px) and (max-width: 991px) {
-  h2 {
-    font-size: 26px;
-    margin-left: 36px;
-  }
-  ul {
-    font-size: 12px;
-    padding-left: 0;
-  }
-  .will_learn {
-    width: 79%;
-    margin: 0 0 85px 44px;
-  }
-  .content_program {
-    margin: auto;
-  }
-  .program_block {
-    margin-bottom: 24px;
-  }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*-----------------------------------*/
+/*_______________________________________________________________________________________________________________________*/
 
 #wrapper {
   margin: auto;
@@ -325,34 +489,131 @@ footer {
   margin-top: 140px;
 }
 
+/*____________________________________________________________________________________________________________________*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*----------------------------------------------*/
 @media screen and (min-width: 992px) and (max-width: 1279px) {
+  .logotype {
+    padding-left: 70px;
+  }
+  .startofthecourse {
+    max-width: 37%;
+    margin-top: 56px;
+    font-size: 12px;
+    margin-left: 70px;
+  }
+
+  .producer1_photo {
+    margin-top: 8px;
+    max-width: 90%;
+  }
+
+  .producer1_photo div {
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 46px;
+    margin-left: 70px;
+  }
+  .producer1_photo p {
+    margin-left: 70px;
+  }
+
+  .quote {
+    font-size: 12px;
+    height: 116px;
+    border-radius: 2.9px;
+    margin-top: 39px;
+    margin-bottom: 100px;
+    max-width: 33.5%;
+    margin-left: 70px;
+  }
+
+  .quote p:last-child {
+    font-size: 10px;
+    margin-left: 70px;
+  }
+
+  .course_descrip_photo {
+    font-size: 15px;
+    max-width: 90%;
+  }
+
+  .photo_lessons_comments {
+    margin-top: 30px;
+    margin-bottom: 94px;
+  }
+
+  .descrip {
+    max-width: 50%;
+  }
+
+  .duration_list {
+    font-size: 15px;
+    margin-left: 70px;
+  }
+
+  .duration_list div {
+    max-width: 23%;
+  }
+
+  .photo_comments {
+    width: 20%;
+  }
+
+  .duration {
+    font-size: 15px;
+  }
+
+  .classformat_form {
+    margin-top: 51px;
+    margin-bottom: 103px;
+    font-size: 15px;
+  }
+
+  .classformat_content {
+    margin-left: 70px;
+  }
+
+  .aboutcourse_content {
+    margin-left: 70px;
+  }
+
+  .format {
+    font-size: 15px;
+  }
+
+  .classformat_form div {
+    max-height: 45px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  ul {
+    font-size: 14px;
+    padding-left: 0;
+  }
+  .will_learn {
+    width: 46%;
+    margin: 0 0 144px 80px;
+  }
+  .content_program {
+    max-width: 88%;
+    margin: 55px 0 52px 49px;
+  }
+  .program_block {
+    margin-bottom: 24px;
+    margin-right: 21px;
+  }
+
+  .whatWeLearn_content h2 {
+    font-family: Roboto Slab;
+    font-size: 32px;
+    margin-left: 70px;
+  }
+
   .feedback_one,
   .price-list_one,
   .contacts-for-communication {
@@ -363,7 +624,7 @@ footer {
     height: 451px;
   }
 
-  price-list {
+  .price-list {
     height: 451.75px;
   }
 
@@ -468,24 +729,159 @@ footer {
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*__________________________________________________________*/
 
 @media screen and (max-width: 991px) {
+  header img {
+    min-width: 52px;
+  }
+
+  .startofthecourse {
+    max-width: 35%;
+    min-width: 237px;
+    margin-top: 47px;
+    font-size: 10px;
+    margin-left: 35px;
+  }
+
+  .startofthecourse div {
+    min-width: 75px;
+  }
+
+  .startofthecourse div:nth-child(2) {
+    min-width: 59px;
+  }
+
+  .producer1_photo {
+    margin-top: 8px;
+    flex-direction: column;
+  }
+  .producer1_photo p {
+    margin-left: 35px;
+  }
+  .producer1_photo div {
+    font-size: 10px;
+    max-width: 100%;
+  }
+
+  .producer1_photo div:last-child {
+    min-width: 141px;
+    margin: auto;
+  }
+
+  h1 {
+    font-size: 37px;
+    margin-left: 35px;
+  }
+
+  .quote {
+    font-size: 10px;
+    height: 93px;
+    border-radius: 2.3px;
+    margin-top: 39px;
+    margin-bottom: 75px;
+    margin-left: 0;
+    min-width: 225px;
+    margin-left: 35px;
+  }
+
+  .quote p:last-child {
+    font-size: 10px;
+  }
+
+  .course_descrip_photo {
+    font-size: 10px;
+    flex-wrap: wrap;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
+
+  .photo_lessons_comments {
+    margin-top: 30px;
+    margin-bottom: 76px;
+  }
+
+  .duration_list {
+    font-size: 10px;
+    margin-left: 0;
+    max-width: 206px;
+    flex-wrap: wrap;
+  }
+
+  .duration_list div {
+    max-width: 40%;
+  }
+
+  .photo_comments {
+    display: none;
+  }
+
+  .course_descrip_photo {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .descrip {
+    min-width: 280px;
+  }
+
+  .course_descrip_photo div:last-child {
+    min-width: 170px;
+    margin: auto;
+  }
+
+  .duration {
+    font-size: 12px;
+  }
+
+  .classformat_content {
+    margin-left: 35px;
+  }
+
+  .aboutcourse_content {
+    margin-left: 35px;
+  }
+
+  .classformat_form {
+    margin-top: 17px;
+    margin-bottom: 73px;
+    font-size: 10px;
+    flex-direction: column;
+  }
+
+  .format {
+    font-size: 10px;
+  }
+
+  .classformat_form div {
+    max-height: 50px;
+    margin-bottom: 30px;
+    max-width: 180px;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
+  ul {
+    font-size: 12px;
+    padding-left: 0;
+  }
+  .will_learn {
+    width: 79%;
+    margin: 0 0 85px 44px;
+  }
+
+  .program_block {
+    margin-bottom: 24px;
+  }
+  .whatWeLearn_content h2 {
+    font-family: Roboto Slab;
+    font-size: 27px;
+    margin-left: 36px;
+  }
+
   .feedback_one,
   .price-list_one,
   .contacts-for-communication {
@@ -552,10 +948,10 @@ footer {
 
   .conditions p {
     padding-top: 10px;
+    font-size: 10px;
   }
   .conditions {
     max-width: 40%;
-    
   }
 
   .conditions div {
