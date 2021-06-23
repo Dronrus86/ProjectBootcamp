@@ -5,28 +5,19 @@ body {
   margin: 0;
 }
 
-.main_content {
-  width: 100%;
-  margin: auto;
-}
-.logotype {
-  padding-left: 30px;
-}
-
 .header_content {
   margin: auto;
-  max-width: 1280px;
-  width: 100%;
   margin-top: 20px;
+  padding-left: 122px;
 }
 
-.header img {
+header img {
   max-width: 10%;
   height: auto;
 }
 
 .watchamovie_conten {
-  margin-left: 30px;
+  margin-left: 122px;
 }
 
 .startofthecourse {
@@ -236,7 +227,7 @@ h2 {
   width: 46%;
   margin: 0 0 248px 121px;
 }
-.whatWeLearn_content h2 {
+h2 {
   font-family: Roboto Slab;
   font-size: 55px;
   line-height: 101.38%;
@@ -253,6 +244,7 @@ ul {
   display: flex;
   flex-wrap: wrap;
   font-family: Roboto;
+  width: 88%;
 }
 
 .program_block {
@@ -261,6 +253,7 @@ ul {
   box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
   margin-bottom: 41px;
   margin-right: 37px;
+  width: 28%;
 }
 
 .program_block > div:nth-child(2) {
@@ -268,9 +261,10 @@ ul {
 }
 
 .program_block img {
-  width: 399px;
+  width: 100%;
   height: 100%;
 }
+s
 
 /*_______________________________________________________________________________________________________________________*/
 
@@ -492,9 +486,10 @@ footer {
 /*____________________________________________________________________________________________________________________*/
 
 @media screen and (min-width: 992px) and (max-width: 1279px) {
-  .logotype {
+  .header_content {
     padding-left: 70px;
   }
+
   .startofthecourse {
     max-width: 37%;
     margin-top: 56px;
@@ -587,10 +582,11 @@ footer {
     max-height: 45px;
   }
 
+  /*____________________________________________________*/
   h2 {
     font-size: 32px;
+    margin-left: 70px;
   }
-
   ul {
     font-size: 14px;
     padding-left: 0;
@@ -606,13 +602,10 @@ footer {
   .program_block {
     margin-bottom: 24px;
     margin-right: 21px;
+    width: 28%;
   }
 
-  .whatWeLearn_content h2 {
-    font-family: Roboto Slab;
-    font-size: 32px;
-    margin-left: 70px;
-  }
+  /*_________________________________________________________________*/
 
   .feedback_one,
   .price-list_one,
@@ -732,6 +725,10 @@ footer {
 /*__________________________________________________________*/
 
 @media screen and (max-width: 991px) {
+  .header_content {
+    padding-left: 36px;
+  }
+
   header img {
     min-width: 52px;
   }
@@ -860,9 +857,11 @@ footer {
     margin-bottom: 30px;
     max-width: 180px;
   }
+  /*____________________________________________________*/
 
   h2 {
     font-size: 26px;
+    margin-left: 36px;
   }
   ul {
     font-size: 12px;
@@ -872,14 +871,13 @@ footer {
     width: 79%;
     margin: 0 0 85px 44px;
   }
-
+  .content_program {
+    margin: auto;
+  }
   .program_block {
     margin-bottom: 24px;
-  }
-  .whatWeLearn_content h2 {
-    font-family: Roboto Slab;
-    font-size: 27px;
-    margin-left: 36px;
+    margin-left: 95px;
+    width: 49%;
   }
 
   .feedback_one,
@@ -1016,8 +1014,8 @@ footer {
   }
   .copyright {
     font-size: 10px;
-    margin-left: 57px;
-    padding-bottom: 10px;
+    margin-left: 36px;
+
     margin-top: 30px;
   }
 }
