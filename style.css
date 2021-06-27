@@ -488,7 +488,7 @@ footer {
 
 @media screen and (min-width: 992px) and (max-width: 1279px) {
   .header_content {
-    padding-left: 70px;
+    margin-left: 70px;
   }
 
   .startofthecourse {
@@ -727,7 +727,7 @@ footer {
 
 @media screen and (max-width: 991px) {
   .header_content {
-    padding-left: 36px;
+    margin-left: 36px;
   }
 
   header img {
