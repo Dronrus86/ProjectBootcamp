@@ -6,10 +6,10 @@ body {
 }
 
 .header_content {
-  margin: auto;
+  margin-left: 122px;
   margin-top: 20px;
-  padding-left: 122px;
-  max-width: 100%;
+  width: 100%;
+  max-width: 1280px;
 }
 
 header img {
