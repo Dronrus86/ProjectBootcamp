@@ -263,13 +263,13 @@ ul {
   max-width: 1280px;
 }
 
-.feedback_one {
+.feedback_container {
   margin: auto;
   max-width: 1280px;
   width: 100%;
 }
 
-.price-list_one {
+.price_container {
   margin: auto;
   max-width: 1280px;
   width: 100%;
