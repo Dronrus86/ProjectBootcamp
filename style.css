@@ -6,19 +6,21 @@ body {
 }
 
 .header_content {
-  margin-left: 122px;
-  margin-top: 20px;
-  width: 100%;
+  margin: auto;
   max-width: 1280px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.main_container {
+  max-width: 1280px;
+  width: 100%;
+  margin: auto;
 }
 
 header img {
   max-width: 10%;
   height: auto;
-}
-
-.watchamovie_conten {
-  margin-left: 122px;
 }
 
 .startofthecourse {
@@ -27,7 +29,6 @@ header img {
   justify-content: space-between;
   margin-top: 96px;
   font-size: 23px;
-  margin-left: 122px;
 }
 
 .startofthecourse div img {
@@ -57,7 +58,7 @@ header img {
 .producer1_photo div {
   max-width: 60%;
   font-size: 23px;
-  line-height: 150%;
+
   font-weight: 400;
 }
 
@@ -76,12 +77,10 @@ h1 {
   font-weight: 700;
   margin: 0;
   line-height: 100%;
-  margin-left: 122px;
 }
 
 .producer1_photo p {
   max-width: 67%;
-  margin-left: 122px;
 }
 
 .quote {
@@ -115,10 +114,6 @@ h1 {
   text-align: right;
   padding-right: 5%;
   padding-bottom: 5%;
-}
-
-.aboutcourse_content {
-  margin-left: 122px;
 }
 
 .course_descrip_photo {
@@ -195,10 +190,6 @@ h2 {
   margin-bottom: 0;
 }
 
-.classformat_content {
-  margin-left: 122px;
-}
-
 .classformat_form {
   display: flex;
   align-items: flex-start;
@@ -226,13 +217,12 @@ h2 {
 
 .will_learn {
   width: 46%;
-  margin: 0 0 248px 121px;
+  margin: 0 0 248px 0px;
 }
 h2 {
   font-family: Roboto Slab;
   font-size: 55px;
   line-height: 101.38%;
-  margin-left: 121px;
 }
 
 ul {
@@ -241,7 +231,7 @@ ul {
 }
 
 .content_program {
-  margin: 95px 0 121px 84px;
+  margin: 95px 0 0px 0px;
   display: flex;
   flex-wrap: wrap;
   font-family: Roboto;
@@ -265,7 +255,6 @@ ul {
   width: 100%;
   height: 100%;
 }
-s
 
 /*_______________________________________________________________________________________________________________________*/
 
@@ -274,10 +263,16 @@ s
   max-width: 1280px;
 }
 
-.feedback_one,
-.price-list_one,
-.contacts-for-communication {
-  margin-left: 122px;
+.feedback_one {
+  margin: auto;
+  max-width: 1280px;
+  width: 100%;
+}
+
+.price-list_one {
+  margin: auto;
+  max-width: 1280px;
+  width: 100%;
 }
 
 #feedback {
@@ -382,6 +377,12 @@ s
   line-height: 101.38%;
 }
 
+.footer_container {
+  max-width: 1280px;
+  width: 100%;
+  margin: auto;
+}
+
 footer {
   background-color: black;
   height: 390px;
@@ -478,7 +479,6 @@ footer {
 
 .copyright {
   color: white;
-  margin-left: 122px;
   font-size: 18px;
   line-height: 101.38%;
   margin-top: 140px;
