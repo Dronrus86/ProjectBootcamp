@@ -9,7 +9,6 @@ body {
   margin: auto;
   max-width: 1280px;
   width: 100%;
-  margin-top: 20px;
 }
 
 .main_container {
@@ -23,10 +22,13 @@ header img {
   height: auto;
 }
 
+.header_content {
+  margin-top: 20px;
+}
+
 .startofthecourse {
-  max-width: 45%;
+  max-width: 100%;
   display: flex;
-  justify-content: space-between;
   margin-top: 96px;
   font-size: 23px;
 }
@@ -41,11 +43,11 @@ header img {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  width: 30%;
+  width: 20%;
 }
 
 .startofthecourse div:nth-child(2) {
-  width: 23%;
+  width: 20%;
 }
 
 .producer1_photo {
