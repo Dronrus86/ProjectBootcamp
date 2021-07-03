@@ -224,7 +224,7 @@ h2 {
 
 .will_learn {
   width: 46%;
-  margin: 0 0 248px 0px;
+  margin: 0px 0px 248px 0px;
 }
 h2 {
   font-family: Roboto Slab;
@@ -265,26 +265,14 @@ ul {
 
 /*_______________________________________________________________________________________________________________________*/
 
-#wrapper {
-  margin: auto;
-  max-width: 1280px;
-}
-
-.feedback_container {
-  margin: auto;
-  max-width: 1280px;
-  width: 100%;
-}
-
-.price_container {
-  margin: auto;
-  max-width: 1280px;
-  width: 100%;
-}
-
 #feedback {
   background-color: #efefef;
+}
+
+.content_feedback {
   height: 780px;
+  max-width: 1280px;
+  margin: auto;
 }
 
 .feedback_one h2 {
@@ -299,7 +287,6 @@ ul {
   max-height: 451px;
   background-color: white;
   border-radius: 30px;
-  margin-left: 0.4%;
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
 }
 
@@ -347,7 +334,12 @@ ul {
 
 #price-list {
   background-color: #9dc9c8;
+}
+
+.shedule_content {
   height: 780px;
+  max-width: 1280px;
+  margin: auto;
 }
 
 .price-list_one h2 {
@@ -388,11 +380,11 @@ ul {
   max-width: 1280px;
   width: 100%;
   margin: auto;
+  height: 390px;
 }
 
 footer {
   background-color: black;
-  height: 390px;
 }
 
 .contacts-for-communication p {
