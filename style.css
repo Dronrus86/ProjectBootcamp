@@ -283,8 +283,8 @@ ul {
 }
 
 .feedback_info {
-  max-width: 791px;
-  max-height: 451px;
+  max-width: 70%;
+  max-height: 60%;
   background-color: white;
   border-radius: 30px;
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
@@ -366,7 +366,7 @@ ul {
 .conditions {
   display: flex;
   justify-content: space-between;
-  max-width: 56%;
+  max-width: 50%;
 }
 
 .conditions div {
