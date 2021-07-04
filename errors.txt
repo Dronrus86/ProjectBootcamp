@@ -1,5 +1,12 @@
-1. .header_content - ширина какая?
-2. .producer1_photo - видимо это контейнер? У него ширина 1192. В макете 1280 вроде быть
-3. в этой секции вообще нет контейнера (#aboutcourse)
-4. В остальных секциях нет контейнера
-5. https://monosnap.com/file/J44CGnqZHwoD664vykWlq4EEbWaIEq
+1. Почему задана высота
+.content_feedback {
+    height: 780px;
+
+2. Контейнер с разными именами - зачем? Он же одну и ту же задачу выполняет на всем сайте
+3. Зачем .start_course {
+    width: 100%;
+}
+
+4. Пустое пространство
+ - https://monosnap.com/file/o4iNcGgz2gV4gGXiKUP9ofIWPUph8M
+ - https://monosnap.com/file/o4iNcGgz2gV4gGXiKUP9ofIWPUph8M
