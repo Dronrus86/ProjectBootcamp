@@ -229,7 +229,9 @@ h2 {
   height: auto;
 }
 /*___________________________________________________________________________________*/
-
+.whatWeLearn_content {
+  padding-left: 40px;
+}
 .will_learn {
   width: 46%;
   margin: 0px 0px 248px 0px;
@@ -577,18 +579,19 @@ a {
   .lessons_form_descrip div {
     max-height: 45px;
   }
-
+  .whatWeLearn_content h2 {
+    padding-left: 40px;
+  }
   h2 {
     font-size: 32px;
-    margin-left: 70px;
   }
   ul {
     font-size: 14px;
-    padding-left: 0;
+    padding-left: 0px;
   }
   .will_learn {
     width: 46%;
-    margin: 0 0 144px 80px;
+    margin: 0 0 144px 60px;
   }
   .content_program {
     max-width: 88%;
