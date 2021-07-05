@@ -5,15 +5,21 @@ body {
   margin: 0;
 }
 
-.header_content {
-  max-width: 1280px;
-  margin: auto;
-}
-
-.main_container {
+.main_content {
   max-width: 1280px;
   width: 100%;
   margin: auto;
+}
+
+.header_content {
+  margin: auto;
+  max-width: 1280px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.logotype {
+  padding-left: 40px;
 }
 
 header img {
@@ -21,68 +27,68 @@ header img {
   height: auto;
 }
 
-.header_content {
-  margin-top: 20px;
+.start_course {
+  margin-left: 40px;
 }
 
-.startofthecourse {
-  max-width: 60%;
+.watchamovie_content {
+  max-width: 45%;
   display: flex;
   justify-content: space-between;
   margin-top: 96px;
-  font-size: 23px;
+  font-size: 20px;
 }
 
-.startofthecourse div img {
+.watchamovie_content div img {
   max-height: 30%;
   width: auto;
-  margin-right: 4%;
+  margin-right: 5%;
 }
 
-.startofthecourse div {
+.watchamovie_content div {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  width: 25%;
+  width: 30%;
 }
 
-.startofthecourse div:nth-child(2) {
-  width: 20%;
+.watchamovie_content div:nth-child(2) {
+  width: 23%;
 }
 
 .producer1_photo {
-  margin-top: 29px;
-  max-width: 100%;
+  margin-top: 20px;
+  max-width: 88%;
   display: flex;
   justify-content: space-between;
 }
 
 .producer1_photo div {
-  max-width: 60%;
-  font-size: 23px;
-
+  max-width: 50%;
+  font-size: 20px;
+  line-height: 150%;
   font-weight: 400;
 }
 
 .producer1_photo div:last-child {
-  width: 28.3%;
+  width: 29%;
 }
 
-.producer1_photo div img {
+.producer1_photodiv img {
   max-width: 100%;
   height: auto;
 }
 
 h1 {
   font-family: "Roboto Slab";
-  font-size: 80px;
+  font-size: 72px;
   font-weight: 700;
   margin: 0;
   line-height: 100%;
 }
 
 .producer1_photo p {
-  max-width: 67%;
+  max-width: 73%;
 }
 
 .quote {
@@ -90,8 +96,8 @@ h1 {
   font-weight: 400;
   background-color: #1e4681;
   color: #ffffff;
-  font-size: 25px;
-  max-width: 40%;
+  font-size: 24px;
+  max-width: 41%;
   height: auto;
   border-radius: 5px;
   margin-top: 68px;
@@ -111,16 +117,20 @@ h1 {
 
 .quote p:last-child {
   font-family: "Roboto";
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 400;
   text-align: right;
-  padding-right: 5%;
-  padding-bottom: 5%;
+  padding-right: 4%;
+  padding-bottom: 4%;
+}
+
+.aboutcourse_content {
+  margin-left: 40px;
 }
 
 .course_descrip_photo {
   font-family: "Roboto";
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 400;
   max-width: 95%;
   display: flex;
@@ -130,7 +140,7 @@ h1 {
 }
 
 .course_descrip_photo div:last-child {
-  width: 30%;
+  width: 31%;
 }
 
 .course_descrip_photo div img {
@@ -140,13 +150,13 @@ h1 {
 
 h2 {
   font-family: "Roboto Slab";
-  font-size: 55px;
+  font-size: 46px;
   font-weight: 700;
   line-height: 101.38%;
 }
 
 .descrip {
-  max-width: 60%;
+  max-width: 58%;
 }
 
 .descrip p {
@@ -157,7 +167,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  max-width: 80%;
+  max-width: 81%;
   margin-top: 70px;
   margin-bottom: 162px;
 }
@@ -173,7 +183,7 @@ h2 {
 }
 
 .duration_list div {
-  max-width: 30%;
+  max-width: 26%;
   height: auto;
 }
 
@@ -187,35 +197,38 @@ h2 {
 }
 
 .duration {
-  font-size: 25px;
+  font-size: 18px;
   font-weight: 700;
   margin-bottom: 0;
+}
+
+.classformat_content {
+  margin-left: 40px;
 }
 
 .classformat_form {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  margin-top: 90px;
+  margin-top: 89px;
   margin-bottom: 179px;
   font-size: 18px;
   font-weight: 400;
-  max-width: 60%;
+  max-width: 76%;
   line-height: 130%;
 }
 
 .format {
   color: #1e4681;
-  font-size: 25px;
+  font-size: 24px;
   font-weight: 700;
 }
 
-.classformat_form_descrip div {
-  max-width: 30%;
+.classformat_form {
+  max-width: 65%;
   height: auto;
 }
-
-/*____________________________________________________________________________________________________________*/
+/*___________________________________________________________________________________*/
 
 .will_learn {
   width: 46%;
@@ -245,7 +258,7 @@ ul {
   border-radius: 37px;
   box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
   margin-bottom: 41px;
-  margin-right: 37px;
+  margin-right: 40px;
   width: 28%;
 }
 
@@ -257,36 +270,37 @@ ul {
   width: 100%;
   height: 100%;
 }
-
-/*_______________________________________________________________________________________________________________________*/
+/*______________________________________________________________________________*/
 
 #feedback {
   background-color: #efefef;
 }
 
 .content_feedback {
-  height: 780px;
   max-width: 1280px;
   margin: auto;
+}
+.feedback_one {
+  padding-left: 40px;
+  padding-bottom: 120px;
 }
 
 .feedback_one h2 {
   margin: 0;
-  padding-top: 91px;
+  padding-top: 92px;
   padding-bottom: 63px;
-  font-size: 55px;
 }
 
 .feedback_info {
-  max-width: 70%;
-  max-height: 60%;
+  max-width: 69%;
+  max-height: 59%;
   background-color: white;
   border-radius: 30px;
-  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.25);
 }
 
 .feedback_info div:first-child {
-  max-width: 88%;
+  max-width: 90%;
   max-height: 45%;
   padding: 5% 6% 0 6%;
   font-size: 20px;
@@ -304,13 +318,13 @@ ul {
   font-family: "Roboto Slab";
   font-weight: 700;
   line-height: 101.38%;
-  max-width: 72.4%;
+  max-width: 73%;
 }
 
 .avatar div:first-child {
-  width: 33%;
+  width: 34%;
   margin-bottom: 29px;
-  padding-left: 5%;
+  padding-left: 30px;
 }
 
 .avatar div img {
@@ -332,21 +346,21 @@ ul {
 }
 
 .shedule_content {
-  height: 780px;
   max-width: 1280px;
+  height: 780px;
   margin: auto;
+}
+
+.price-list_one {
+  padding-left: 40px;
 }
 
 .price-list_one h2 {
   margin: 0;
   padding-top: 179px;
   padding-bottom: 54px;
-  font-size: 55px;
 }
 
-.conditions p {
-  padding-top: 20px;
-}
 .cost {
   font-size: 25px;
   margin-bottom: 0;
@@ -361,45 +375,49 @@ ul {
 .conditions {
   display: flex;
   justify-content: space-between;
-  max-width: 50%;
+  max-width: 57%;
 }
 
 .conditions div {
   max-width: 45%;
   height: auto;
-  font-size: 25px;
+  font-size: 18px;
   line-height: 101.38%;
-}
-
-.content_footer {
-  max-width: 1280px;
-  margin: auto;
-  height: 390px;
 }
 
 footer {
   background-color: black;
 }
 
+.footer_content {
+  max-width: 1280px;
+  height: 390px;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
 .contacts-for-communication p {
   color: white;
   margin-top: 0;
-
 }
 
 .contacts-for-communication {
   display: flex;
   justify-content: space-between;
-  max-width: 81.4%;
+  max-width: 92%;
+  padding-left: 37px;
 }
 
 .social-network {
   padding-top: 50px;
-  width: 16.9%;
+  width: 70%;
 }
 
 .logo-mobile {
-  width: 58%;
+  width: 59%;
 }
 
 .logo-mobile img {
@@ -409,7 +427,7 @@ footer {
 
 .phone-mail {
   margin-top: 54px;
-  max-width: 27%;
+  max-width: 29%;
 }
 
 .number ul {
@@ -460,10 +478,11 @@ footer {
   display: flex;
   justify-content: space-between;
   margin-top: 30px;
+  width: 45%;
 }
 
 .messengers div {
-  width: 17.6%;
+  width: 17%;
 }
 
 .messengers div img {
@@ -473,60 +492,51 @@ footer {
 
 .copyright {
   color: white;
-  font-size: 18px;
+  font-size: 25px;
   line-height: 101.38%;
   margin-top: 140px;
+  padding-left: 40px;
 }
 
-/*____________________________________________________________________________________________________________________*/
-
 @media screen and (min-width: 992px) and (max-width: 1279px) {
-  .header_content {
-    margin-left: 70px;
-  }
-
-  .startofthecourse {
+  .watchamovie_content {
     max-width: 37%;
     margin-top: 56px;
-    font-size: 12px;
-    margin-left: 70px;
+    font-size: 14px;
   }
 
   .producer1_photo {
     margin-top: 8px;
-    max-width: 90%;
   }
 
   .producer1_photo div {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   h1 {
     font-size: 46px;
-    margin-left: 70px;
-  }
-  .producer1_photo p {
-    margin-left: 70px;
   }
 
   .quote {
-    font-size: 12px;
+    font-size: 14px;
     height: 116px;
     border-radius: 2.9px;
     margin-top: 39px;
     margin-bottom: 100px;
     max-width: 33.5%;
-    margin-left: 70px;
   }
 
   .quote p:last-child {
-    font-size: 10px;
-    margin-left: 70px;
+    font-size: 14px;
   }
 
   .course_descrip_photo {
-    font-size: 15px;
+    font-size: 12px;
     max-width: 90%;
+  }
+
+  h2 {
+    font-size: 32px;
   }
 
   .photo_lessons_comments {
@@ -539,8 +549,7 @@ footer {
   }
 
   .duration_list {
-    font-size: 15px;
-    margin-left: 70px;
+    font-size: 12px;
   }
 
   .duration_list div {
@@ -552,32 +561,23 @@ footer {
   }
 
   .duration {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .classformat_form {
     margin-top: 51px;
     margin-bottom: 103px;
-    font-size: 15px;
-  }
-
-  .classformat_content {
-    margin-left: 70px;
-  }
-
-  .aboutcourse_content {
-    margin-left: 70px;
+    font-size: 12px;
   }
 
   .format {
-    font-size: 15px;
+    font-size: 14px;
   }
 
-  .classformat_form div {
+  .lessons_form_descrip div {
     max-height: 45px;
   }
 
-  /*____________________________________________________*/
   h2 {
     font-size: 32px;
     margin-left: 70px;
@@ -600,33 +600,20 @@ footer {
     width: 28%;
   }
 
-  /*_________________________________________________________________*/
-
-  .feedback_one,
-  .price-list_one,
-  .contacts-for-communication {
-    margin-left: 70px;
-  }
-
-  #feedback {
-    height: 451px;
-  }
-
-  .price-list {
-    height: 451.75px;
+  .content_feedback {
+    height: 452px;
   }
 
   .feedback_one h2 {
-    padding-top: 32px;
-    padding-bottom: 40.26px;
-    font-size: 32px;
+    padding-top: 53px;
+    padding-bottom: 40px;
   }
 
   .feedback_info {
-    max-width: 458px;
-    max-height: 261px;
+    max-width: 46%;
+    max-height: 57%;
     box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
-    border-radius: 17.3px;
+    border-radius: 17px;
   }
 
   .feedback_info div:first-child {
@@ -636,33 +623,31 @@ footer {
 
   .avatar {
     font-size: 17px;
-    max-width: 72.4%;
+    max-width: 72%;
   }
 
   .avatar div:first-child {
     width: 24.24%;
-    margin-bottom: 16.8px;
+    margin-bottom: 17px;
     padding-left: 5%;
   }
 
   .avatar div p {
-    margin-top: 1.91%;
-    margin-bottom: 6.51%;
+    margin-top: 2%;
+    margin-bottom: 6.5%;
   }
 
-  #price-list {
-    background-color: #9dc9c8;
-    height: 451.5px;
+  .shedule_content {
+    height: 451px;
   }
 
   .price-list_one h2 {
-    padding-top: 103.67px;
-    padding-bottom: 31.27px;
-    font-size: 32px;
+    padding-top: 103px;
+    padding-bottom: 31px;
   }
 
   .cost {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .price {
@@ -670,76 +655,76 @@ footer {
   }
 
   .conditions {
-    max-width: 45.69%;
+    max-width: 46%;
   }
 
   .conditions div {
-    font-size: 14px;
+    font-size: 12px;
   }
 
-  footer {
-    background-color: black;
-    height: 225.88px;
+  .footer_content {
+    height: 226px;
+  }
+
+  .logo-mobile {
+    width: 50%;
   }
 
   .social-network {
     padding-top: 29px;
   }
 
-  .messengers {
-    margin-top: 17px;
-  }
-
   .phone-mail {
     margin-top: 31px;
-    font-size: 14px;
   }
 
-  .phone-mail ul li {
-    font-size: 14px;
+  .number ul li {
+    font-size: 12px;
   }
 
   .mail ul li {
-    font-size: 14px;
-  }
-  .number {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .mail ul li:first-child {
     min-width: 10%;
   }
 
+  .messengers {
+    margin-top: 17px;
+    max-width: 85%;
+  }
+
+  .messengers div {
+    width: 17%;
+  }
+
   .copyright {
-    font-size: 10px;
-    margin-top: 64px;
-    margin-left: 71px;
+    font-size: 12px;
+    margin-top: 74px;
   }
 }
 
-/*__________________________________________________________*/
-
 @media screen and (max-width: 991px) {
-  .header_content {
-    margin-left: 36px;
-  }
-
   header img {
     min-width: 52px;
   }
-  .startofthecourse {
+
+  .producer1_photo img {
+    width: 100%;
+  }
+  .watchamovie_content {
     max-width: 35%;
     min-width: 237px;
     margin-top: 47px;
     font-size: 10px;
-    margin-left: 35px;
   }
 
-  .startofthecourse div {
+  .watchamovie_content div {
     min-width: 75px;
   }
 
-  .startofthecourse div:nth-child(2) {
+  .watchamovie_content div:nth-child(2) {
     min-width: 59px;
   }
 
@@ -747,9 +732,7 @@ footer {
     margin-top: 8px;
     flex-direction: column;
   }
-  .producer1_photo p {
-    margin-left: 35px;
-  }
+
   .producer1_photo div {
     font-size: 10px;
     max-width: 100%;
@@ -762,7 +745,6 @@ footer {
 
   h1 {
     font-size: 37px;
-    margin-left: 35px;
   }
 
   .quote {
@@ -773,7 +755,6 @@ footer {
     margin-bottom: 75px;
     margin-left: 0;
     min-width: 225px;
-    margin-left: 35px;
   }
 
   .quote p:last-child {
@@ -827,14 +808,6 @@ footer {
     font-size: 12px;
   }
 
-  .classformat_content {
-    margin-left: 35px;
-  }
-
-  .aboutcourse_content {
-    margin-left: 35px;
-  }
-
   .classformat_form {
     margin-top: 17px;
     margin-bottom: 73px;
@@ -843,7 +816,7 @@ footer {
   }
 
   .format {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .classformat_form div {
@@ -851,51 +824,59 @@ footer {
     margin-bottom: 30px;
     max-width: 180px;
   }
-  /*____________________________________________________*/
+
+  #programcourse h2 {
+    font-size: 26px;
+  }
+
+  /*____________________________________________________________________________*/
+
+  .whatWeLearn_content {
+    margin-left: 0px;
+  }
+  .content_program p {
+    font-size: 11px;
+    text-align: center;
+  }
+  .content_program h3 {
+    font-size: 12px;
+    text-align: center;
+  }
 
   h2 {
     font-size: 26px;
     margin-left: 36px;
   }
   ul {
-    font-size: 12px;
-    padding-left: 0;
+    font-size: 10px;
+    padding-left: 0px;
   }
   .will_learn {
     width: 79%;
     margin: 0 0 85px 44px;
   }
-  .content_program {
-    margin: auto;
-  }
+
   .program_block {
     margin-bottom: 24px;
     margin-left: 95px;
     width: 49%;
   }
-
-  .feedback_one,
-  .price-list_one,
-  .contacts-for-communication {
-    margin-left: 36px;
-  }
-
-  #feedback {
+  /*_____________________________________________________________________________*/
+  .content_feedback {
     height: 423px;
+    width: auto;
   }
 
   .feedback_one h2 {
     padding-top: 42px;
     padding-bottom: 28px;
-    font-size: 26px;
-    width: 257px;
   }
 
   .feedback_info {
-    max-width: 308px;
-    max-height: 248px;
+    max-width: 80%;
+    max-height: 58.63%;
     box-shadow: 0.465972px 0.465972px 9.31944px rgba(0, 0, 0, 0.25);
-    border-radius: 13.9px;
+    border-radius: 14px;
   }
 
   .feedback_info div:first-child {
@@ -904,8 +885,12 @@ footer {
   }
 
   .avatar {
-    font-size: 0.87rem;
+    font-size: 12px;
     max-width: 83.77%;
+  }
+
+  .avatar div img {
+    max-width: 90%;
   }
 
   .avatar div:first-child {
@@ -915,19 +900,18 @@ footer {
   }
 
   .avatar div p {
-    margin-top: 1.91%;
+    margin-top: 2%;
     margin-bottom: 6.51%;
   }
 
-  #price-list {
+  .shedule_content {
     height: 363px;
+    width: auto;
   }
 
   .price-list_one h2 {
     padding-top: 62px;
     padding-bottom: 22.33px;
-    font-size: 26px;
-    width: 224px;
   }
 
   .cost {
@@ -936,81 +920,67 @@ footer {
 
   .price {
     font-size: 37px;
-    margin: 0%;
   }
 
-  .conditions p {
-    padding-top: 10px;
-    font-size: 10px;
-  }
   .conditions {
-    max-width: 30%;
+    max-width: 80%;
   }
 
   .conditions div {
-    font-size: 12px;
-    width: 140px;
+    font-size: 10px;
   }
 
-  footer {
-    background-color: black;
+  .footer_content {
     height: 251px;
+  }
+
+  .logo-mobile {
+    width: 53px;
   }
 
   .social-network {
     padding-top: 23px;
-    min-width: 24.5%;
+    min-width: 17%;
   }
 
   .contacts-for-communication {
     flex-direction: column;
-    margin-top: 0;
   }
 
-  .contacts-for-communication p {
-    margin-top: 0;
-  }
-
-  .logo-mobile img {
-    max-width: 70%;
-  }
-  .contacts {
+  .phone-mail {
     margin-top: 47px;
-    min-width: 41%;
+    min-width: 148px;
   }
 
   .number ul li {
     font-size: 10px;
   }
 
+  .number ul li:first-child {
+    height: 13px;
+    width: auto;
+  }
+
   .mail ul li {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .mail ul li:first-child {
-    min-width: 10%;
+    width: 13px;
+    height: auto;
   }
 
   .messengers {
     margin-top: 14px;
-    min-width: 24.5%;
+    width: 92px;
   }
-  .messengers div img {
-    max-width: 70%;
-  }
-  .phone-mail {
-    margin-top: 10px;
-  }
+
   .messengers div {
-    min-width: 17%;
+    width: 16px;
   }
-  .mail ul img {
-    max-width: 70%;
-  }
+
   .copyright {
     font-size: 10px;
-    margin-left: 36px;
-
-    margin-top: 30px;
+    margin-top: 35px;
   }
 }
