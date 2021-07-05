@@ -229,17 +229,19 @@ h2 {
   height: auto;
 }
 /*___________________________________________________________________________________*/
-.whatWeLearn_content {
-  padding-left: 40px;
-}
+
 .will_learn {
   width: 46%;
-  margin: 0px 0px 248px 0px;
+  margin: 0px 0px 248px 40px;
 }
 h2 {
   font-family: Roboto Slab;
   font-size: 55px;
   line-height: 101.38%;
+}
+
+.whatWeLearn_content h2 {
+  padding-left: 40px;
 }
 
 ul {
@@ -248,7 +250,7 @@ ul {
 }
 
 .content_program {
-  margin: 95px 0 0px 0px;
+  margin: 95px 0 0px 40px;
   display: flex;
   flex-wrap: wrap;
   font-family: Roboto;
