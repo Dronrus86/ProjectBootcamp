@@ -3,11 +3,13 @@
 body {
   font-family: "Roboto", sans-serif;
   margin: 0;
+  padding: 0;
 }
 
 .container {
   max-width: 1280px;
   margin: auto;
+  width: 80%;
 }
 
 .logotype {
@@ -270,7 +272,11 @@ ul {
 #feedback {
   background-color: #efefef;
 }
-
+.content_feedback {
+  margin: auto;
+  width: 80%;
+  max-width: 1280px;
+}
 .feedback_one {
   margin-left: 37px;
   padding-bottom: 120px;
@@ -337,6 +343,11 @@ ul {
   background-color: #9dc9c8;
 }
 .shedule_content {
+  margin: auto;
+  width: 80%;
+  max-width: 1280px;
+}
+.price-list_one {
   margin-left: 37px;
 }
 .price-list_one h2 {
@@ -375,6 +386,9 @@ footer {
 
 .footer_content {
   height: 390px;
+  margin: auto;
+  width: 80%;
+  max-width: 1280px;
 }
 .contacts-for-communication {
   margin-left: 37px;
