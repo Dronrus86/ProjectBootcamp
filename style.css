@@ -11,7 +11,11 @@ body {
   margin: auto;
   width: 80%;
 }
-
+.header_logo {
+  max-width: 1280px;
+  margin: auto;
+  width: 80%;
+}
 .logotype {
   margin-left: 37px;
   padding-top: 20px;
