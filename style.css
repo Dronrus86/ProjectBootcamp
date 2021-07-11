@@ -6,16 +6,16 @@ body {
   padding: 0;
 }
 
-.container {
+.container,
+.header_logo,
+.content_feedback,
+.shedule_content,
+.footer_content {
   max-width: 1280px;
   margin: auto;
   width: 89%;
 }
-.header_logo {
-  max-width: 1280px;
-  margin: auto;
-  width: 89%;
-}
+
 .logotype {
   margin-left: 37px;
   padding-top: 20px;
@@ -276,11 +276,7 @@ ul {
 #feedback {
   background-color: #efefef;
 }
-.content_feedback {
-  margin: auto;
-  max-width: 1280px;
-  width: 89%;
-}
+
 .feedback_one {
   margin-left: 37px;
   padding-bottom: 120px;
@@ -346,11 +342,7 @@ ul {
 #price-list {
   background-color: #9dc9c8;
 }
-.shedule_content {
-  margin: auto;
-  max-width: 1280px;
-  width: 89%;
-}
+
 .price-list_one {
   margin-left: 37px;
 }
@@ -388,14 +380,9 @@ footer {
   background-color: black;
 }
 
-.footer_content {
-  height: 390px;
-  margin: auto;
-  max-width: 1280px;
-  width: 89%;
-}
 .contacts-for-communication {
   margin-left: 37px;
+  height: 390px;
 }
 a {
   text-decoration: none;
