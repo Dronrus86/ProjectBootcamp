@@ -5,15 +5,16 @@ body {
   margin: 0;
   padding: 0;
 }
+
 .container {
   max-width: 1280px;
   margin: auto;
-  width: 80%;
+  width: 89%;
 }
 .header_logo {
   max-width: 1280px;
   margin: auto;
-  width: 80%;
+  width: 89%;
 }
 .logotype {
   margin-left: 37px;
@@ -277,8 +278,8 @@ ul {
 }
 .content_feedback {
   margin: auto;
-  width: 80%;
   max-width: 1280px;
+  width: 89%;
 }
 .feedback_one {
   margin-left: 37px;
@@ -347,8 +348,8 @@ ul {
 }
 .shedule_content {
   margin: auto;
-  width: 80%;
   max-width: 1280px;
+  width: 89%;
 }
 .price-list_one {
   margin-left: 37px;
@@ -390,8 +391,8 @@ footer {
 .footer_content {
   height: 390px;
   margin: auto;
-  width: 80%;
   max-width: 1280px;
+  width: 89%;
 }
 .contacts-for-communication {
   margin-left: 37px;
