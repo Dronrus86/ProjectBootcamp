@@ -380,9 +380,12 @@ footer {
   background-color: black;
 }
 
+.footer_content {
+  height: 390px;
+}
+
 .contacts-for-communication {
   margin-left: 37px;
-  height: 390px;
 }
 a {
   text-decoration: none;
